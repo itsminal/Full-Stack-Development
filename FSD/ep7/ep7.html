@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables: Rows, Columns, and Advanced Attributes</title>
+</head>
+<body>
+    <!-- first table -->
+    <table border="1">
+        <thead>
+            <th>Student Id</th>
+            <th>Student Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1234</td>
+                <td colspan="3">bill</td>
+                
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td>bill</td>
+                <td>male</td>
+                <td rowspan="3">17</td>
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td rowspan="2" colspan="2">bill</td>
+                
+            </tr>
+            <tr>
+                <td>1234</td>
+                
+                
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+
+    <!-- second table -->
+    <table border="1">
+        <tr>
+            <td>c1</td>
+            <td>c2</td>
+            <td>c3</td>
+        </tr>
+        <tr>
+            <td rowspan="2" >r1c1</td>
+            <td>r1c1</td>
+            <td>r1c3</td>
+        </tr>
+        <tr>    
+            <td>r2c2</td>
+            <td>r2c3</td>
+        </tr>
+        <tr>
+            <td colspan="3">r3c1</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <!-- Third table -->
+    <table border="1">
+        <thead>
+            <th>no.</th>
+            <th>full name</th>
+            <th>position</th>
+            <th>salary</th>
+            <th>type</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>bg</td>
+                <td>fm</td>
+                <td>1000</td>
+                <td rowspan="4">cf</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>sj</td>
+                <td>fa</td>
+                <td>1200</td>
+                
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>lp</td>
+                <td>fg</td>
+                <td>1100</td>
+                
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>mz</td>
+                <td>ff</td>
+                <td>1300</td>
+                
+            </tr>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total expense=</td>
+                    
+                    <td>4600</td>
+                    
+                </tr>
+            </tfoot>
+
+
+        </tbody>
+    </table>
+    <br><br>
+
+    <!-- fourth table -->
+    <table border="1">
+        <thead>
+            <th>country</th>
+            <th>state</th>
+            <th>city</th>
+            <th>street</th>
+            <th>male</th>
+            <th>female</th>
+            <th>others</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="8">1</td>
+                <td rowspan="4">kerala</td>
+                <td rowspan="2">cochin</td>
+                <td>new street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>main street</td>
+                <td>300</td>
+                <td>288</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">trivandrum</td>
+                <td>guru street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>tvk street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="4">maharashtra</td>
+                <td rowspan="2">mumbai</td>
+                <td>krishna street</td>
+                <td>700</td>
+                <td>850</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>main street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">surath</td>
+                <td>new street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                
+                <td>billa street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">alaska</td>
+                <td rowspan="2">aka central</td>
+                <td>new street</td>
+                <td>200</td>
+                <td>210</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>cross street</td>
+                <td>1000</td>
+                <td>1050</td>
+                <td>10</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <!-- fifth table -->
+    <table border="2">
+        <thead>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="3">Seminar</th>
+                
+            </tr>
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th rowspan="2">Topic</th>
+                
+            </tr>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8:00 a.m.</td>
+                <td rowspan="2">5:00 p.m.</td>
+                <td>Introduction to XML</td>
+            </tr>
+            <tr>
+                <td>Validity: DTD and Relax NG</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td>8:00 a.m.</td>
+                <td>11:00 a.m.</td>
+                <td rowspan="1.5">Xpath</td>
+            </tr>
+            <tr>
+                
+                <td>11:00 a.m.</td>
+                <td>2:00 p.m.</td>
+                
+            </tr>
+            <tr>
+                
+                <td>2:00 p.m.</td>
+                <td>5:00 p.m.</td>
+                <td rowspan="1.5">XSL Transformations</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>8:00 a.m.</td>
+                <td>12:00 p.m.</td>
+                <td>XSL Formatting Objects</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
