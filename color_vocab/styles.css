@@ -1,0 +1,63 @@
+.color{
+    height: 200px;
+    width: 200px;
+
+}
+#red{
+    color:red ;
+    font-weight: 600;
+}
+#pink{
+    color:pink ;
+    font-weight: 600;
+}
+#orange{
+    color: orange;
+    font-weight: 600;
+}
+#yellow{
+    color: yellow;
+    font-weight: 600;
+}
+#green{
+    color:green ;
+    font-weight: 600;
+}
+#blue{
+    color:blue ;
+    font-weight: 600;
+}
+#brown{
+    color: brown;
+    font-weight: 600;
+}
+#violet{
+    color: violet;
+    font-weight: 600;
+}
+#purple{
+    color:purple ;
+    font-weight: 600;
+}
+
+#cyan{
+    color:cyan ;
+    font-weight: 600;
+}
+#turquoise{
+    color: turquoise;
+    font-weight: 600;
+}
+#grey{
+    color:grey ;
+    font-weight:600 ;
+}
+#white{
+    
+    font-weight:600 ;
+}
+#black{
+    color: black;
+    font-weight: 600;
+}
+
