@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+li{
+    list-style-type: none;
+}
+
+*{
+    font-family: 'Sono', sans-serif;
+    
+}
+
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+    
+}
+.price{
+    flex: 1;
+    max-width: 300px;
+    padding: 20px;
+    background-color: rgb(210, 209, 209);
+    border-radius: 5px;
+    text-align: center;
+}
+@media (max-width:1250px){
+    .container{
+    flex-direction: column;
+    height: 100%;
+    }
+}
