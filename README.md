@@ -23,7 +23,7 @@ To run the projects in this repository, you'll need an integrated development en
 
 3. Navigate to the project folder of the specific project you want to explore.
 
-4. Open the HTML and CSS files in your browser to see the project in action.
+4. Open the HTML files in your browser to see the project in action.
 
 ## Contribution
 
