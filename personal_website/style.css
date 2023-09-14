@@ -1,0 +1,15 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Sono&family=Source+Code+Pro&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#intro{
+    background-color: #352F44;
+    height: 95vh;
+}
+
+
+
