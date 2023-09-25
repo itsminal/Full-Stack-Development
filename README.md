@@ -1,6 +1,6 @@
 # Web Development Learning Repository
 
-Welcome to the **Web Development Learning** repository! This repository serves as a way for me to track my progress as I delve into the world of web development. As part of my learning journey, I'll be creating various projects using HTML5, CSS3, and eventually expanding into the MERN stack.
+Welcome to the **Web Development Learning** repository! This repository serves as a way for me to track my progress as I delve into the world of web development. As part of my learning journey, I'll be creating various projects using HTML5, CSS3, JavaScript and eventually expanding into the MERN stack.
 
 ## Purpose
 
@@ -8,7 +8,7 @@ The primary purpose of this repository is to document and showcase my growth in 
 
 ## Projects
 
-Currently, this repository includes projects built with HTML5 and CSS3. These projects are simple and designed to help me grasp the fundamentals of web development. I plan to expand the repository over time by adding more projects that explore advanced concepts and technologies, including the MERN (MongoDB, Express.js, React, Node.js) stack.
+Currently, this repository includes projects built with HTML5, CSS3 and JavaScript. These projects are simple and designed to help me grasp the fundamentals of web development. I plan to expand the repository over time by adding more projects that explore advanced concepts and technologies, including the MERN (MongoDB, Express.js, React, Node.js) stack.
 
 ## Getting Started
 
